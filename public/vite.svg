@@ -1,0 +1,54 @@
+<!-- Logo dari Claude AI -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <!-- Background Gradient Merah-Hitam -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#330000" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1A0000" stop-opacity="1"/>
+        </linearGradient>
+        
+        <filter id="shadowEffect">
+            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#ff0000" flood-opacity="0.3"/>
+        </filter>
+    </defs>
+    
+    <!-- Background dengan Gradient Merah-Hitam -->
+    <rect 
+        width="200" 
+        height="200" 
+        rx="40" 
+        ry="40" 
+        fill="url(#bgGradient)"
+        filter="url(#shadowEffect)"
+    />
+    
+    <!-- Note dengan Warna Merah Gelap -->
+    <path 
+        d="M60 50 L140 50 L140 140 L60 140 Z" 
+        fill="#400000" 
+        stroke="#800000" 
+        stroke-width="3"
+    />
+    
+    <!-- Lipatan Sudut dengan Gradasi Merah -->
+    <path 
+        d="M140 50 L160 70 L160 140 L140 140 Z" 
+        fill="#2A0000"
+    />
+    
+    <!-- Garis Note dengan Warna Merah Terang -->
+    <line x1="75" y1="80" x2="125" y2="80" stroke="#A00000" stroke-width="2"/>
+    <line x1="75" y1="100" x2="125" y2="100" stroke="#A00000" stroke-width="2"/>
+    <line x1="75" y1="120" x2="110" y2="120" stroke="#A00000" stroke-width="2"/>
+    
+    <!-- Icon Hati dengan Warna Merah Cerah -->
+    <path 
+        d="M140 160 
+           C160 140, 180 150, 160 170 
+           C140 190, 140 170, 120 160 
+           Z" 
+        fill="#FF0000"
+        filter="url(#shadowEffect)"
+    />
+</svg>
